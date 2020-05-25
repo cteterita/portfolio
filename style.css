@@ -1,3 +1,15 @@
 /* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
 
-/* Backgrounds */
+/* Color Scheme
+Generated using coolors.co
+https://coolors.co/4f6d7a-415a77-9d6381-fbfbfb-04080f-25283d
+*/
+:root {
+    --teal: #4f6d7aff;
+    --medium_blue: #415a77ff;
+    --fuschia: #9d6381ff;
+    --powder: #fbfbfbff;
+    --almost_black: #04080fff;
+    --dark_blue: #25283dff; 
+}
