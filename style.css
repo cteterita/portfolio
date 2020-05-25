@@ -13,3 +13,75 @@ https://coolors.co/4f6d7a-415a77-9d6381-fbfbfb-04080f-25283d
     --almost_black: #04080fff;
     --dark_blue: #25283dff; 
 }
+
+/* Primary containers */
+body {
+    background-color: var(--powder);
+    color: var(--almost_black);
+    font-family: 'Muli', sans-serif;
+}
+
+header {
+    background-color: var(--dark_blue);
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 25px;
+}
+
+footer {
+    background-color: var(--dark_blue);
+    color: var(--powder);
+    text-align: center;
+    padding: 25px;
+}
+
+
+/* Headers & Rulers */
+h1 {
+    color: var(--fuschia);
+    font-size: 48px;
+}
+
+h2 {
+    color: var(--teal);
+    font-size: 24px;
+}
+
+h3 {
+    color: var(--teal);
+    font-size: 18px;
+}
+
+hr {
+    background-color: var(--teal);
+    height: 6px;
+    width: 85%;
+    margin-top: 25px;
+}
+
+/* Image classes */
+.centered {
+    display:block;
+    margin: auto;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.large {
+    width: 50%;
+}
+
+.medium {
+    width: 30%;
+}
+
+/* Links */
+a:link { color: var(--fuschia); }
+a:visited{ color: var(--teal); }
+a:hover { color: var(--dark_blue); }
+a:active { color: var(--medium_blue); }
