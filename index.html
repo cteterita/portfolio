@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Claire Teter Lesh</title>
     
     <!-- Stylesheets -->
@@ -13,67 +14,88 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
-  <!-- Body -->
   <body>
     <header>
       <h1>Claire Teter Lesh</h1>
-      <h2>Software Developer</h2>
     </header>
 
     <main>
-      <img src="images/claire.jpg" class="centered large circle" alt="Claire in front of a bookshelf">
-      <p>
-        I'm Claire, a full-stack web developer located in Marin County, California.
-        As a former product manager, I understand how to create thoughtful, effective, and
-        functional web products from concept to production.
-      </p>
+      <div class="wrapper">
+        <!-- Group 1: Photo & Intro -->
+        <div class="group">
+          <div class="item">
+            <img src="images/claire.jpg" class="circle" alt="Claire in front of a bookshelf">
+          </div>
+          <div class="item-double">
+            <h2>Hi, I'm Claire!</h2>
+            <p>
+              I'm a full-stack web developer located in Marin County, California.
+              As a former product manager, I understand how to create thoughtful, effective, and
+              functional web products from concept to production.
+            </p>
+            <p>
+              This content needs to be significantly longer to look good next to the photo.
+            </p>
+          </div>
+        </div>
 
-      <hr>
+        <hr>
 
-      <article>
-        <h2>About Me</h2>
-        <p>
-          I first entered the world of technology at a small advertising startup in 2011.
-          After starting as a business generalist (there were only 12 of us at the time), I grew
-          into a role as a product manager conceptualizing and implementing web dashboards for advertisers.
-          Ever since college I had regretted missing the opportunity to become a software developer,
-          so I was thrilled when I joined the web development team and got to learn the trade while on the job.
-        </p>
-       
-        <h3>I have experience in...</h3>
-        <ol>
-          <li>Javascript & Backbone.js</li>
-          <li>Python (including Flask & Tornado frameworks)</li>
-          <li>Google Apps Script</li>
-        </ol>
+        <!-- Group 2: About Me & Experience-->
+        <div class="group">
+          <div class="item-double">
+            <h2>About Me</h2>
+            <p>
+              I first entered the world of technology at a small advertising startup in 2011.
+              After starting as a business generalist (there were only 12 of us at the time), I grew
+              into a role as a product manager conceptualizing and implementing web dashboards for advertisers.
+              Ever since college I had regretted missing the opportunity to become a software developer,
+              so I was thrilled when I joined the web development team and got to learn the trade while on the job.
+            </p>
+            <p>
+              I left the technology sector in 2015 to work for my family's small business
+              in the hospitality industry. Now I'm ready to get back to the technology I love,
+              while bringing back a breadth of management & problem-solving experience.
+            </p>
+            <p>In my free time, I'm a serial traveller who knows her way around power tools
+              and really loves her doge named Starbuck.
+            </p>
+          </div>
 
-        <p>
-          I left the technology sector in 2015 to work for my family's small business
-          in the hospitality industry. Now I'm ready to get back to the technology I love,
-          while bringing back a breadth of management & problem-solving experience.
-        </p>
+          <div class="item">
+            <h3>I have experience in...</h3>
+            <ol>
+              <li>Javascript & Backbone.js</li>
+              <li>Python (including Flask & Tornado frameworks)</li>
+              <li>Google Apps Script</li>
+            </ol>
+          </div>
+        </div>
 
-        <p>In my free time, I'm a serial traveller who knows her way around power tools
-          and really loves her doge named Starbuck.
-        </p>
+        <hr>
 
-        <img src="images/claire-and-starbuck.jpg" class="centered medium circle" alt="Claire hugging Starbuck">
-      </article>
+        <!-- TODO: Insert project section here -->
 
-      <hr>
-
-      <article>
-        <h2>Contact Me</h2>
-
-        <p>
-          Please reach out to me with collaboration opportunities (or doge memes)!
-        </p>
-
-        <ul>
-          <li><a href="https://github.com/cteterita" target="_blank">Github</a></li>
-          <li><a href="https://www.linkedin.com/in/claireteter/" target="_blank">Linkedin</a></li>
-        </ul>
-      </article>
+        <!-- Group 3: Contact & Photo-->
+        <div class="group">
+          <div class="item-double">
+            <h2>Contact Me</h2>
+  
+            <p>
+              Please reach out to me with collaboration opportunities (or doge memes)!
+            </p>
+  
+            <ul>
+              <li><a href="https://github.com/cteterita" target="_blank">Github</a></li>
+              <li><a href="https://www.linkedin.com/in/claireteter/" target="_blank">Linkedin</a></li>
+              <li><a href="mailto:cteterita@gmail.com" target="_blank">Email</a></li>
+            </ul>
+          </div>
+          <div class="item">
+            <img src="images/claire-and-starbuck.jpg" class="circle" alt="Claire hugging Starbuck">
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>

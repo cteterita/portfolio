@@ -28,7 +28,7 @@ header {
 }
 
 main {
-    padding: 25px;
+    font-size: 20px;
 }
 
 footer {
@@ -39,7 +39,7 @@ footer {
 }
 
 
-/* Headers & Rulers */
+/* Elements */
 h1 {
     color: var(--fuschia);
     font-size: 48px;
@@ -47,7 +47,7 @@ h1 {
 
 h2 {
     color: var(--teal);
-    font-size: 24px;
+    font-size: 28px;
 }
 
 h3 {
@@ -59,25 +59,15 @@ hr {
     background-color: var(--teal);
     height: 6px;
     width: 85%;
-    margin-top: 25px;
 }
 
-/* Image classes */
-.centered {
-    display:block;
-    margin: auto;
-}
-
+/* Images */
 .circle {
     border-radius: 50%;
 }
 
-.large {
-    width: 50%;
-}
-
-.medium {
-    width: 30%;
+.group img {
+    width: 100%;
 }
 
 /* Links */
@@ -85,3 +75,37 @@ a:link { color: var(--fuschia); }
 a:visited{ color: var(--teal); }
 a:hover { color: var(--dark_blue); }
 a:active { color: var(--medium_blue); }
+
+/* Groups & Items  (Mobile First) */
+.wrapper {
+    width: 100%;
+}
+  
+.group {
+    display: flex;
+    flex-direction: column;
+}
+  
+.item {
+    flex: 1;
+    margin: 10px;
+}
+  
+.item-double {
+    flex: 2;
+    margin: 10px;
+}
+  
+  
+/* Groups & Items  (Desktop) */
+  
+@media all and (min-width: 600px) {
+    .wrapper {
+        width: 90%;
+        margin: auto;
+    }
+  
+    .group {
+        flex-direction: row;
+    }
+}
