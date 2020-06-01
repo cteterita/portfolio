@@ -24,7 +24,8 @@ body {
 header {
     background-color: var(--dark_blue);
     text-align: center;
-    padding: 10px;
+    padding: 16px;
+    margin-bottom: 16px;
 }
 
 main {
@@ -35,15 +36,12 @@ footer {
     background-color: var(--dark_blue);
     color: var(--powder);
     text-align: center;
-    padding: 25px;
+    padding: 20px;
+    margin-top: 10px;
 }
 
 
 /* Elements */
-h1 {
-
-}
-
 h2 {
     color: var(--teal);
     font-size: 28px;
@@ -59,6 +57,10 @@ hr {
     background-color: var(--teal);
     height: 6px;
     width: 100%;
+}
+
+p {
+    margin: 10px 0;
 }
 
 /* Images */
@@ -84,7 +86,7 @@ main a:active { color: var(--medium_blue); }
 form input,
 form textarea {
     width: 95%;
-    margin: 8px 0;
+    margin: 10px 0;
 }
 
 form textarea {
@@ -93,9 +95,10 @@ form textarea {
 
 form button {
     background-color: var(--fuschia);
-    border-radius: 8px;
+    border-radius: 10px;
     color: var(--powder);
     border: none;
+    padding: 10px;
 }
 
 /* Navigation */
@@ -129,8 +132,8 @@ header nav ul li a {
 
 /* Groups & Items  (Mobile First) */
 .wrapper {
-    width: 100%;
-    padding-top: 2px;
+    width: 96%;
+    padding: 2px 2%;
 }
   
 .group {
@@ -140,7 +143,7 @@ header nav ul li a {
 
 .teal-bg {
     background-color: var(--teal);
-    padding: 8px 0;
+    padding: 2px 0 10px 0;
 }
 
 .teal-bg h2 {
@@ -149,8 +152,8 @@ header nav ul li a {
 
 .card {
     background-color: var(--powder);
-    border-radius: 8px;
-    padding: 8px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .item, .item-double {
@@ -160,10 +163,11 @@ header nav ul li a {
   
 /* Groups & Items  (Desktop) */
   
-@media all and (min-width: 600px) {
+@media all and (min-width: 700px) {
     .wrapper {
         width: 90%;
         margin: auto;
+        padding: 0;
     }
   
     .group {
@@ -177,10 +181,12 @@ header nav ul li a {
 
     .item {
         flex: 1;
+        margin-bottom: 0;
     }
       
     .item-double {
         flex: 2;
+        margin-bottom: 0;
     }
     
     .item + .item {
