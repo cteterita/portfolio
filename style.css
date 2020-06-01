@@ -80,10 +80,28 @@ a:visited{ color: var(--teal); }
 a:hover { color: var(--dark_blue); }
 a:active { color: var(--medium_blue); }
 
+/* Forms */
+form input,
+form textarea {
+    width: 100%;
+    /*margin: 8px 0;*/
+}
+
+form textarea {
+    height: 80px;
+}
+
+form button {
+    background-color: var(--fuschia);
+    border-radius: 8px;
+    color: var(--powder);
+    border: none;
+}
+
 /* Groups & Items  (Mobile First) */
 .wrapper {
     width: 100%;
-    padding: 8px;
+    padding-top: 8px;
 }
   
 .group {
