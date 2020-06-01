@@ -41,8 +41,7 @@ footer {
 
 /* Elements */
 h1 {
-    color: var(--fuschia);
-    font-size: 48px;
+
 }
 
 h2 {
@@ -84,7 +83,7 @@ a:active { color: var(--medium_blue); }
 form input,
 form textarea {
     width: 100%;
-    /*margin: 8px 0;*/
+    margin: 8px 0;
 }
 
 form textarea {
@@ -98,10 +97,39 @@ form button {
     border: none;
 }
 
+/* Navigation */
+header h1 {
+    color: var(--fuschia);
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    color: var(--fuschia);
+    text-decoration: none;
+    padding: 0 20px 0 0;
+}
+
 /* Groups & Items  (Mobile First) */
 .wrapper {
     width: 100%;
-    padding-top: 8px;
+    padding-top: 2px;
 }
   
 .group {
@@ -144,5 +172,10 @@ form button {
   
     .group {
         flex-direction: row;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
     }
 }
