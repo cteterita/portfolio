@@ -58,7 +58,7 @@ h3 {
 hr {
     background-color: var(--teal);
     height: 6px;
-    width: 85%;
+    width: 100%;
 }
 
 /* Images */
@@ -70,6 +70,10 @@ hr {
     width: 100%;
 }
 
+img.icon {
+    width: 32px;
+}
+
 /* Links */
 a:link { color: var(--fuschia); }
 a:visited{ color: var(--teal); }
@@ -79,6 +83,7 @@ a:active { color: var(--medium_blue); }
 /* Groups & Items  (Mobile First) */
 .wrapper {
     width: 100%;
+    padding: 8px;
 }
   
 .group {
@@ -94,6 +99,20 @@ a:active { color: var(--medium_blue); }
 .item-double {
     flex: 2;
     margin: 10px;
+}
+
+.teal-bg {
+    background-color: var(--teal);
+}
+
+.teal-bg h2 {
+    color: var(--powder);
+}
+
+.card {
+    background-color: var(--powder);
+    border-radius: 8px;
+    padding: 8px;
 }
   
   
