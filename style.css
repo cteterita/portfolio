@@ -11,7 +11,7 @@ https://coolors.co/4f6d7a-415a77-9d6381-fbfbfb-04080f-25283d
     --fuschia: #9d6381ff;
     --powder: #fbfbfbff;
     --almost_black: #04080fff;
-    --dark_blue: #25283dff; 
+    --dark_blue: #25283dff;
 }
 
 /* Primary containers */
@@ -66,10 +66,14 @@ p {
 /* Images */
 .circle {
     border-radius: 50%;
+    width: 100%;
 }
 
-.group img {
-    width: 100%;
+.screenshot {
+  border-radius: 10px;
+  max-height: 200px;
+  display: block;
+  margin: auto;
 }
 
 img.icon {
@@ -135,7 +139,7 @@ header nav ul li a {
     width: 96%;
     padding: 2px 2%;
 }
-  
+
 .group {
     display: flex;
     flex-direction: column;
@@ -159,17 +163,17 @@ header nav ul li a {
 .item, .item-double {
     margin-bottom: 10px;
 }
-  
-  
+
+
 /* Groups & Items  (Desktop) */
-  
-@media all and (min-width: 700px) {
+
+@media all and (min-width: 1100px) {
     .wrapper {
         width: 90%;
         margin: auto;
         padding: 0;
     }
-  
+
     .group {
         flex-direction: row;
     }
@@ -183,20 +187,20 @@ header nav ul li a {
         flex: 1;
         margin-bottom: 0;
     }
-      
+
     .item-double {
         flex: 2;
         margin-bottom: 0;
     }
-    
+
     .item + .item {
         margin-left: 10px;
     }
-    
+
     .item-double + .item {
         margin-left: 10px;
     }
-    
+
     .item + .item-double {
         margin-left: 10px;
     }
